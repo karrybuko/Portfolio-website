@@ -17,16 +17,19 @@ h3 {
 
 h1 {
   font-size: 140px;
+  font-family: "Bebas Neue", cursive;
 }
 
 h2 {
   font-size: 100px;
   padding-top: 100px;
+  font-family: "Rajdhani", sans-serif;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  font-family: "Rajdhani", sans-serif;
 }
 .h1-about-me {
   margin-top: 100px;
@@ -118,4 +121,12 @@ p {
 }
 .homepage-link {
   padding-top: 80px;
+}
+i {
+  color: #6c63ff;
+  display: none;
+  font-size: 45px;
+  text-align: center;
+  padding: 70px 20px;
+  margin: 20px 0px;
 }
