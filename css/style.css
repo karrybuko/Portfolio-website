@@ -1,6 +1,6 @@
 :root {
   --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --secondary-color: #f8f9fa;
   --box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -11,6 +11,7 @@ body {
   background-color: rgb(235, 235, 235);
   text-align: center;
   padding: 20px 0px 0px 0px;
+  background-image: url(/images/shape-gray.jpg);
 }
 .navbar-brand {
   font-family: "Bebas Neue", cursive;
@@ -26,6 +27,7 @@ h3 {
 
 h1 {
   font-family: "Bebas Neue", cursive;
+  color: var(--secondary-color);
 }
 
 h3 {
@@ -46,6 +48,9 @@ h3 {
 }
 .h2-home {
   font-size: 48px;
+}
+.h3-header {
+  color: aliceblue;
 }
 .container {
   margin-top: 30px;
@@ -156,7 +161,12 @@ i {
   margin: 20px 0px;
 }
 @media (max-width: 900px) {
-  .project-description {
+  .project-description h2,
+  p,
+  a {
+    text-align: center;
+  }
+  .title-links {
     text-align: center;
   }
 }
