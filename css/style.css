@@ -24,12 +24,13 @@ body {
   font-family: "Bebas Neue", cursive;
   color: var(--title-text-color);
 }
+.nav-link,
 .nav-item {
   font-family: "Montserrat", sans-serif;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 18px;
   opacity: 0.7;
   font-family: "Montserrat", sans-serif;
 }
@@ -63,6 +64,8 @@ h3 {
   color: var(--title-text-color);
 }
 .links {
+  text-decoration: none;
+  color: var(--title-text-color);
   font-size: 24px;
   opacity: 0.7;
   font-family: "Montserrat", sans-serif;
@@ -71,7 +74,11 @@ h3 {
   margin-top: 0;
   text-align: center;
   display: block;
-  text-decoration: none;
+}
+.links:hover {
+  font-weight: bold;
+  color: var(--p-color);
+  text-decoration: overline;
 }
 
 .about-head {
@@ -85,7 +92,7 @@ h3 {
   color: var(--primary-color);
   padding-top: 70px;
   margin-top: 70px;
-  font-size: 130px;
+  font-size: 120px;
 }
 
 .h3-header {
@@ -135,7 +142,7 @@ h3 {
 }
 
 .navigation-links a {
-  font-size: 30px;
+  font-size: 25px;
   margin: 50px 20px 30px 20px;
   padding: 10px 20px 8px 20px;
   text-decoration: none;
@@ -186,6 +193,11 @@ i {
   text-align: center;
   font-size: 35px;
   margin: 20px 40px;
+}
+i:hover {
+  color: var(--title-text-color);
+  opacity: 0.7;
+  transition: 0.7s;
 }
 
 .project-block {
